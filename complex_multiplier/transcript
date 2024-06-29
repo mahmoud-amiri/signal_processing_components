@@ -1,0 +1,828 @@
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:17:20 on Jun 29,2024
+# vcom -reportprogress 300 -2008 -work work complex_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_multiplier
+# -- Compiling architecture rtl of complex_multiplier
+# End time: 14:17:20 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:17:20 on Jun 29,2024
+# vlog -reportprogress 300 -sv -work work complex_multiplier_tb.sv 
+# -- Compiling module tb_complex_multiplier
+# 
+# Top level modules:
+# 	tb_complex_multiplier
+# End time: 14:17:20 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:17:20 on Jun 29,2024
+# vopt -reportprogress 300 work.complex_multiplier_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# 
+# Analyzing design...
+# ** Error: (vopt-13130) Failed to find design unit complex_multiplier_tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# End time: 14:17:20 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vopt failed.
+# Error in macro ./run.do line 12
+# Return status = 2
+#     (procedure "compile" line 1)
+#     invoked from within
+# "compile NoFilter vopt work.complex_multiplier_tb -o tb_optimized +acc"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval compile NoFilter vopt $args"
+#     (procedure "vopt" line 9)
+#     invoked from within
+# "vopt work.complex_multiplier_tb -o tb_optimized +acc"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:19:04 on Jun 29,2024
+# vcom -reportprogress 300 -2008 -work work complex_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_multiplier
+# -- Compiling architecture rtl of complex_multiplier
+# End time: 14:19:04 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:19:04 on Jun 29,2024
+# vlog -reportprogress 300 -sv -work work complex_multiplier_tb.sv 
+# -- Compiling module tb_complex_multiplier_tb
+# 
+# Top level modules:
+# 	tb_complex_multiplier_tb
+# End time: 14:19:04 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:19:04 on Jun 29,2024
+# vopt -reportprogress 300 work.complex_multiplier_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# 
+# Analyzing design...
+# ** Error: (vopt-13130) Failed to find design unit complex_multiplier_tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# End time: 14:19:04 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vopt failed.
+# Error in macro ./run.do line 12
+# Return status = 2
+#     (procedure "compile" line 1)
+#     invoked from within
+# "compile NoFilter vopt work.complex_multiplier_tb -o tb_optimized +acc"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval compile NoFilter vopt $args"
+#     (procedure "vopt" line 9)
+#     invoked from within
+# "vopt work.complex_multiplier_tb -o tb_optimized +acc"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:19:53 on Jun 29,2024
+# vcom -reportprogress 300 -2008 -work work complex_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_multiplier
+# -- Compiling architecture rtl of complex_multiplier
+# End time: 14:19:53 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:19:53 on Jun 29,2024
+# vlog -reportprogress 300 -sv -work work complex_multiplier_tb.sv 
+# -- Compiling module complex_multiplier_tb
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# End time: 14:19:53 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:19:53 on Jun 29,2024
+# vopt -reportprogress 300 work.complex_multiplier_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# 
+# Analyzing design...
+# -- Loading module complex_multiplier_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity complex_multiplier
+# -- Loading architecture rtl of complex_multiplier
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module complex_multiplier_tb(fast)
+# -- Optimizing architecture rtl of complex_multiplier
+# Optimized design name is tb_optimized
+# End time: 14:19:54 on Jun 29,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 14:19:54 on Jun 29,2024
+# Loading sv_std.std
+# Loading work.complex_multiplier_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.complex_multiplier(rtl)#1
+# ** Fatal: (vsim-3363) The array length (35) of VHDL port 'real_output' does not match the width (34) of its Verilog connection (7th connection).
+#    Time: 0 ps  Iteration: 0  Instance: /complex_multiplier_tb/dut File: complex_multiplier_tb.sv Line: 24
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 15
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:21:13 on Jun 29,2024
+# vcom -reportprogress 300 -2008 -work work complex_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_multiplier
+# -- Compiling architecture rtl of complex_multiplier
+# End time: 14:21:13 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:21:13 on Jun 29,2024
+# vlog -reportprogress 300 -sv -work work complex_multiplier_tb.sv 
+# -- Compiling module complex_multiplier_tb
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# End time: 14:21:13 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:21:13 on Jun 29,2024
+# vopt -reportprogress 300 work.complex_multiplier_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# 
+# Analyzing design...
+# -- Loading module complex_multiplier_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity complex_multiplier
+# -- Loading architecture rtl of complex_multiplier
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module complex_multiplier_tb(fast)
+# -- Optimizing architecture rtl of complex_multiplier
+# Optimized design name is tb_optimized
+# End time: 14:21:13 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 14:19:54 on Jun 29,2024
+# Loading sv_std.std
+# Loading work.complex_multiplier_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.complex_multiplier(rtl)#1
+# 1
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0000
+# real_part_b = 00000
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 00000
+# Expected imag_output = 00000
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ===============================
+# Inputs:
+# real_part_a = 37e7
+# imag_part_a = 4a7c
+# real_part_b = 2679c
+# imag_part_b = 0ba1c
+# Expected Outputs:
+# Expected real_output = 3c434
+# Expected imag_output = 13ad4
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=1346880564, imag_output=-608093484, but got real_output=0, imag_output=0
+#    Time: 30 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = fde8
+# imag_part_a = 23a7
+# real_part_b = 04716
+# imag_part_b = 2e1c4
+# Expected Outputs:
+# Expected real_output = 21714
+# Expected imag_output = 1aefa
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-540928236, imag_output=-442388742, but got real_output=0, imag_output=0
+#    Time: 40 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = f300
+# imag_part_a = 3d59
+# real_part_b = 24df8
+# imag_part_b = 04bfb
+# Expected Outputs:
+# Expected real_output = 12ebd
+# Expected imag_output = 07438
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=499986109, imag_output=-713001928, but got real_output=0, imag_output=0
+#    Time: 50 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = b311
+# imag_part_a = 74a2
+# real_part_b = 34ffc
+# imag_part_b = 070a5
+# Expected Outputs:
+# Expected real_output = 37752
+# Expected imag_output = 1a76d
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=500397906, imag_output=-786323603, but got real_output=0, imag_output=0
+#    Time: 60 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 88de
+# imag_part_a = 1196
+# real_part_b = 35c90
+# imag_part_b = 09d17
+# Expected Outputs:
+# Expected real_output = 03266
+# Expected imag_output = 23e52
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-1051970970, imag_output=-1894105518, but got real_output=0, imag_output=0
+#    Time: 70 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = b7de
+# imag_part_a = be83
+# real_part_b = 05986
+# imag_part_b = 0a814
+# Expected Outputs:
+# Expected real_output = 391f8
+# Expected imag_output = 350ea
+# Actual Outputs:
+# Actual real_output   = 77e2e0e80
+# Actual imag_output   = 7bf538520
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-1019768328, imag_output=-1151905558, but got real_output=32181718656, imag_output=33274692896
+#    Time: 80 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 79cd
+# imag_part_a = c65c
+# real_part_b = 3604f
+# imag_part_b = 217b2
+# Expected Outputs:
+# Expected real_output = 1464b
+# Expected imag_output = 3d1ee
+# Actual Outputs:
+# Actual real_output   = 7ef919204
+# Actual imag_output   = 7d48729ea
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-64666037, imag_output=-1668034066, but got real_output=34084065796, imag_output=33630398954
+#    Time: 90 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = e897
+# imag_part_a = 56ff
+# real_part_b = 3cf1e
+# imag_part_b = 34bac
+# Expected Outputs:
+# Expected real_output = 2325e
+# Expected imag_output = 0e556
+# Actual Outputs:
+# Actual real_output   = 0441a61c4
+# Actual imag_output   = 7d466a73f
+# ===============================
+# ** Error: Output mismatch! Expected real_output=1463693918, imag_output=1239737686, but got real_output=1142579652, imag_output=33628268351
+#    Time: 100 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 812c
+# imag_part_a = d4e4
+# real_part_b = 04e9e
+# imag_part_b = 01f85
+# Expected Outputs:
+# Expected real_output = 0eab4
+# Expected imag_output = 04c94
+# Actual Outputs:
+# Actual real_output   = 040aeb184
+# Actual imag_output   = 7cd0fe19f
+# ===============================
+# ** Error: Output mismatch! Expected real_output=225766068, imag_output=1363692692, but got real_output=1085190532, imag_output=33505141151
+#    Time: 110 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = a1b2
+# imag_part_a = 169b
+# real_part_b = 22752
+# imag_part_b = 358ad
+# Expected Outputs:
+# Expected real_output = 05a45
+# Expected imag_output = 34ff0
+# Actual Outputs:
+# Actual real_output   = 03ffd2079
+# Actual imag_output   = 7aa642c65
+# ===============================
+# ** Error: Output mismatch! Expected real_output=278157893, imag_output=1304907760, but got real_output=1073553529, imag_output=32923462757
+#    Time: 120 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ** Note: $finish    : complex_multiplier_tb.sv(88)
+#    Time: 120 ns  Iteration: 0  Instance: /complex_multiplier_tb
+# 1
+# Break in Module complex_multiplier_tb at complex_multiplier_tb.sv line 88
+run -all
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:49:28 on Jun 29,2024
+# vcom -reportprogress 300 -2008 -work work complex_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_multiplier
+# -- Compiling architecture rtl of complex_multiplier
+# End time: 14:49:28 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:49:28 on Jun 29,2024
+# vlog -reportprogress 300 -sv -work work complex_multiplier_tb.sv 
+# -- Compiling module complex_multiplier_tb
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# End time: 14:49:28 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:49:29 on Jun 29,2024
+# vopt -reportprogress 300 work.complex_multiplier_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# 
+# Analyzing design...
+# -- Loading module complex_multiplier_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity complex_multiplier
+# -- Loading architecture rtl of complex_multiplier
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module complex_multiplier_tb(fast)
+# -- Optimizing architecture rtl of complex_multiplier
+# Optimized design name is tb_optimized
+# End time: 14:49:29 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:49:39 on Jun 29,2024, Elapsed time: 0:29:45
+# Errors: 11, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 14:49:40 on Jun 29,2024
+# Loading sv_std.std
+# Loading work.complex_multiplier_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.complex_multiplier(rtl)#1
+# 1
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0000
+# real_part_b = 00000
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 00000
+# Expected imag_output = 00000
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0007
+# real_part_b = 00000
+# imag_part_b = 00004
+# Expected Outputs:
+# Expected real_output = 3ffe4
+# Expected imag_output = 00000
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-28, imag_output=0, but got real_output=0, imag_output=0
+#    Time: 30 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0004
+# real_part_b = 00004
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 00000
+# Expected imag_output = 00010
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=0, imag_output=16, but got real_output=0, imag_output=0
+#    Time: 40 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0001
+# imag_part_a = 0006
+# real_part_b = 00001
+# imag_part_b = 00006
+# Expected Outputs:
+# Expected real_output = 3ffdd
+# Expected imag_output = 0000c
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-35, imag_output=12, but got real_output=0, imag_output=0
+#    Time: 50 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0008
+# imag_part_a = 0002
+# real_part_b = 00008
+# imag_part_b = 00001
+# Expected Outputs:
+# Expected real_output = 0003e
+# Expected imag_output = 00018
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=62, imag_output=24, but got real_output=0, imag_output=0
+#    Time: 60 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0008
+# imag_part_a = 0000
+# real_part_b = 00006
+# imag_part_b = 00008
+# Expected Outputs:
+# Expected real_output = 00030
+# Expected imag_output = 00040
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=48, imag_output=64, but got real_output=0, imag_output=0
+#    Time: 70 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0005
+# imag_part_a = 0007
+# real_part_b = 00002
+# imag_part_b = 00008
+# Expected Outputs:
+# Expected real_output = 3ffd2
+# Expected imag_output = 00036
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 00000001c
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-46, imag_output=54, but got real_output=0, imag_output=28
+#    Time: 80 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0007
+# imag_part_a = 0008
+# real_part_b = 00006
+# imag_part_b = 00006
+# Expected Outputs:
+# Expected real_output = 3fffa
+# Expected imag_output = 0005a
+# Actual Outputs:
+# Actual real_output   = 7ffffffe4
+# Actual imag_output   = 7fffffff4
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-6, imag_output=90, but got real_output=34359738340, imag_output=34359738356
+#    Time: 90 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0004
+# imag_part_a = 0007
+# real_part_b = 00000
+# imag_part_b = 00002
+# Expected Outputs:
+# Expected real_output = 3fff2
+# Expected imag_output = 00008
+# Actual Outputs:
+# Actual real_output   = 7fffffffb
+# Actual imag_output   = 00000002a
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-14, imag_output=8, but got real_output=34359738363, imag_output=42
+#    Time: 100 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0001
+# imag_part_a = 0005
+# real_part_b = 00008
+# imag_part_b = 00005
+# Expected Outputs:
+# Expected real_output = 3ffef
+# Expected imag_output = 0002d
+# Actual Outputs:
+# Actual real_output   = 00000001a
+# Actual imag_output   = 7fffffff4
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-17, imag_output=45, but got real_output=26, imag_output=34359738356
+#    Time: 110 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0002
+# imag_part_a = 0006
+# real_part_b = 00005
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 0000a
+# Expected imag_output = 0001e
+# Actual Outputs:
+# Actual real_output   = 7fffffff6
+# Actual imag_output   = 000000006
+# ===============================
+# ** Error: Output mismatch! Expected real_output=10, imag_output=30, but got real_output=34359738358, imag_output=6
+#    Time: 120 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ** Note: $finish    : complex_multiplier_tb.sv(88)
+#    Time: 120 ns  Iteration: 0  Instance: /complex_multiplier_tb
+# 1
+# Break in Module complex_multiplier_tb at complex_multiplier_tb.sv line 88
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:55:15 on Jun 29,2024
+# vcom -reportprogress 300 -2008 -work work complex_multiplier.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity complex_multiplier
+# -- Compiling architecture rtl of complex_multiplier
+# End time: 14:55:15 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:55:16 on Jun 29,2024
+# vlog -reportprogress 300 -sv -work work complex_multiplier_tb.sv 
+# -- Compiling module complex_multiplier_tb
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# End time: 14:55:16 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 14:55:16 on Jun 29,2024
+# vopt -reportprogress 300 work.complex_multiplier_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	complex_multiplier_tb
+# 
+# Analyzing design...
+# -- Loading module complex_multiplier_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity complex_multiplier
+# -- Loading architecture rtl of complex_multiplier
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module complex_multiplier_tb(fast)
+# -- Optimizing architecture rtl of complex_multiplier
+# Optimized design name is tb_optimized
+# End time: 14:55:16 on Jun 29,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:55:18 on Jun 29,2024, Elapsed time: 0:05:38
+# Errors: 10, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 14:55:18 on Jun 29,2024
+# Loading sv_std.std
+# Loading work.complex_multiplier_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.complex_multiplier(rtl)#1
+# 1
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0000
+# real_part_b = 00000
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 00000
+# Expected imag_output = 00000
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0007
+# real_part_b = 00000
+# imag_part_b = 00004
+# Expected Outputs:
+# Expected real_output = 3ffe4
+# Expected imag_output = 00000
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-28, imag_output=0, but got real_output=0, imag_output=0
+#    Time: 30 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0000
+# imag_part_a = 0004
+# real_part_b = 00004
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 00000
+# Expected imag_output = 00010
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=0, imag_output=16, but got real_output=0, imag_output=0
+#    Time: 40 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0001
+# imag_part_a = 0006
+# real_part_b = 00001
+# imag_part_b = 00006
+# Expected Outputs:
+# Expected real_output = 3ffdd
+# Expected imag_output = 0000c
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-35, imag_output=12, but got real_output=0, imag_output=0
+#    Time: 50 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0008
+# imag_part_a = 0002
+# real_part_b = 00008
+# imag_part_b = 00001
+# Expected Outputs:
+# Expected real_output = 0003e
+# Expected imag_output = 00018
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=62, imag_output=24, but got real_output=0, imag_output=0
+#    Time: 60 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0008
+# imag_part_a = 0000
+# real_part_b = 00006
+# imag_part_b = 00008
+# Expected Outputs:
+# Expected real_output = 00030
+# Expected imag_output = 00040
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 000000000
+# ===============================
+# ** Error: Output mismatch! Expected real_output=48, imag_output=64, but got real_output=0, imag_output=0
+#    Time: 70 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0005
+# imag_part_a = 0007
+# real_part_b = 00002
+# imag_part_b = 00008
+# Expected Outputs:
+# Expected real_output = 3ffd2
+# Expected imag_output = 00036
+# Actual Outputs:
+# Actual real_output   = 000000000
+# Actual imag_output   = 00000001c
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-46, imag_output=54, but got real_output=0, imag_output=28
+#    Time: 80 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0007
+# imag_part_a = 0008
+# real_part_b = 00006
+# imag_part_b = 00006
+# Expected Outputs:
+# Expected real_output = 3fffa
+# Expected imag_output = 0005a
+# Actual Outputs:
+# Actual real_output   = 7ffffffe4
+# Actual imag_output   = 7fffffff4
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-6, imag_output=90, but got real_output=34359738340, imag_output=34359738356
+#    Time: 90 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0004
+# imag_part_a = 0007
+# real_part_b = 00000
+# imag_part_b = 00002
+# Expected Outputs:
+# Expected real_output = 3fff2
+# Expected imag_output = 00008
+# Actual Outputs:
+# Actual real_output   = 7fffffffb
+# Actual imag_output   = 00000002a
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-14, imag_output=8, but got real_output=34359738363, imag_output=42
+#    Time: 100 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0001
+# imag_part_a = 0005
+# real_part_b = 00008
+# imag_part_b = 00005
+# Expected Outputs:
+# Expected real_output = 3ffef
+# Expected imag_output = 0002d
+# Actual Outputs:
+# Actual real_output   = 00000001a
+# Actual imag_output   = 7fffffff4
+# ===============================
+# ** Error: Output mismatch! Expected real_output=-17, imag_output=45, but got real_output=26, imag_output=34359738356
+#    Time: 110 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ===============================
+# Inputs:
+# real_part_a = 0002
+# imag_part_a = 0006
+# real_part_b = 00005
+# imag_part_b = 00000
+# Expected Outputs:
+# Expected real_output = 0000a
+# Expected imag_output = 0001e
+# Actual Outputs:
+# Actual real_output   = 7fffffff6
+# Actual imag_output   = 000000006
+# ===============================
+# ** Error: Output mismatch! Expected real_output=10, imag_output=30, but got real_output=34359738358, imag_output=6
+#    Time: 120 ns  Scope: complex_multiplier_tb File: complex_multiplier_tb.sv Line: 82
+# ** Note: $finish    : complex_multiplier_tb.sv(88)
+#    Time: 120 ns  Iteration: 0  Instance: /complex_multiplier_tb
+# 1
+# Break in Module complex_multiplier_tb at complex_multiplier_tb.sv line 88
