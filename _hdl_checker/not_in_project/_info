@@ -99,6 +99,52 @@ Z17 !s107 d:\GitHub\signal_processing_components\IIR_filter\IIR_Filter.vhd|
 !i113 0
 R9
 R10
+Efloatingpointadder
+w1719655690
+R1
+R2
+R3
+!i122 75
+R0
+8d:\GitHub\signal_processing_components\floatingpoint_adder\floatingpoint_adder.vhd
+Fd:\GitHub\signal_processing_components\floatingpoint_adder\floatingpoint_adder.vhd
+l0
+L5 1
+Ve5M:e1@nHK9k`PoH9a<923
+!s100 @8P1R6801^zY@FFWe[HaJ0
+R6
+32
+!s110 1719655691
+!i10b 1
+!s108 1719655691.000000
+!s90 -modelsimini|d:\GitHub\signal_processing_components\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\signal_processing_components\_hdl_checker\not_in_project|-check_synthesis|-lint|-rangecheck|-pedanticerrors|-explicit|d:\GitHub\signal_processing_components\floatingpoint_adder\floatingpoint_adder.vhd|
+!s107 d:\GitHub\signal_processing_components\floatingpoint_adder\floatingpoint_adder.vhd|
+!i113 0
+R9
+R10
+Efloatingpointmultiplier
+w1719655762
+R1
+R2
+R3
+!i122 81
+R0
+8d:\GitHub\signal_processing_components\floatingpoint_multiplier\floatingpoint_multiplier.vhd
+Fd:\GitHub\signal_processing_components\floatingpoint_multiplier\floatingpoint_multiplier.vhd
+l0
+L5 1
+V16[Z7I=dL]XR78o<SW;bn1
+!s100 baUFR2F8c=FRl>;aMAFm[2
+R6
+32
+!s110 1719655763
+!i10b 1
+!s108 1719655763.000000
+!s90 -modelsimini|d:\GitHub\signal_processing_components\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\signal_processing_components\_hdl_checker\not_in_project|-check_synthesis|-lint|-rangecheck|-pedanticerrors|-explicit|d:\GitHub\signal_processing_components\floatingpoint_multiplier\floatingpoint_multiplier.vhd|
+!s107 d:\GitHub\signal_processing_components\floatingpoint_multiplier\floatingpoint_multiplier.vhd|
+!i113 0
+R9
+R10
 Eiir_filter
 Z18 w1719653260
 R1
@@ -162,7 +208,7 @@ Z25 !s110 1719655061
 !i10b 1
 Z26 !s108 1719655061.000000
 Z27 !s90 -modelsimini|d:\GitHub\signal_processing_components\_hdl_checker\modelsim.ini|-quiet|-work|d:\GitHub\signal_processing_components\_hdl_checker\not_in_project|-check_synthesis|-lint|-rangecheck|-pedanticerrors|-explicit|d:\GitHub\signal_processing_components\Neural_Network_Feedforward\NNFF.vhd|
-!s107 d:\GitHub\signal_processing_components\Neural_Network_Feedforward\NNFF.vhd|
+Z28 !s107 d:\GitHub\signal_processing_components\Neural_Network_Feedforward\NNFF.vhd|
 !i113 0
 R9
 R10
@@ -185,7 +231,7 @@ R25
 !i10b 1
 R26
 R27
-Z28 !s107 d:\GitHub\signal_processing_components\Neural_Network_Feedforward\NNFF.vhd|
+R28
 !i113 0
 R9
 R10
