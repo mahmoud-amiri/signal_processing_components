@@ -64,7 +64,7 @@ module complex_multiplier_tb;
             expected_real = real_part_a * real_part_b - imag_part_a * imag_part_b;
             expected_imag = real_part_a * imag_part_b + imag_part_a * real_part_b;
             
-            // Wait for a clock cycle
+            // Wait for some clock cycle
             #40;
 
             // Display inputs and actual outputs
