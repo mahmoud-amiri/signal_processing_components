@@ -111,7 +111,7 @@ module FIR_filter_tb;
     end
 
     for (i = 0; i < INPUT_DATA_NUM; i = i + 1) begin
-      if (abs(output_data[i] - expected_output[i]) > 5) begin
+      if (abs(output_data[i] - expected_output[i]) > 4) begin 
         unmatch_cnt = unmatch_cnt + 1;
         $display("Mismatch at index %0d: expected %b, got %b", i, expected_output[i], output_data[i]);
       end else begin
