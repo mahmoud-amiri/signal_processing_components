@@ -2,6 +2,8 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.NUMERIC_STD.ALL;
 use work.FIR_PKG.all;
+library ieee;
+use ieee.math_real.all;
 
 
 entity fir_filter is
@@ -19,37 +21,72 @@ end entity fir_filter;
 
 architecture behavioral of fir_filter is
 
-  constant coefficients : real_vector(0 to N-1) := (0.01662606, -0.00696415, -0.03403663, -0.04855056, -0.01434685, 0.08048669,  0.20301046,  0.28957738,  0.28957738,  0.20301046, 0.08048669, -0.01434685, -0.04855056, -0.03403663, -0.00696415, 0.01662606);
+  constant COEF : real_vector(0 to N-1) := (0.01662606, -0.00696415, -0.03403663, -0.04855056, -0.01434685, 0.08048669,  0.20301046,  0.28957738,  0.28957738,  0.20301046, 0.08048669, -0.01434685, -0.04855056, -0.03403663, -0.00696415, 0.01662606);
+  constant ACCEPTABLE_ERROR : real := 10.0**(-8);
 
   --We resize to 18 bits because the DSP slices offer 18x25 bit multipliers
-  constant COEF_SCALE_BITS : integer := find_opt_scale(coefficients);
-  constant COEF_SCALE : real := real(2 ** (17 - COEF_SCALE_BITS));
-  constant SCALED_COEFS : integer_vector := scale_coeffs(coefficients, COEF_SCALE);
+  constant INT_BITS : integer := find_integer_bits(COEF);
+  constant FRAC_BITS : integer := find_fraction_bits(ACCEPTABLE_ERROR);
+  constant SCALE_FACTOR : real := 2.0 ** FRAC_BITS;
+  constant SCALED_COEFS : integer_vector := scale_data(COEF, SCALE_FACTOR);
+  constant COEFF_WIDTH : integer:= INT_BITS + FRAC_BITS;
+  type coef_vector is array (natural range <>) of signed(COEFF_WIDTH - 1 downto 0);
+  signal coefficient : coef_vector(0 to N-1);
 
+  type input_vector is array (natural range <>) of signed(M - 1 downto 0);
+  signal delay_line :input_vector(0 to N-1);
+  type products_vector is array (natural range <>) of signed(COEFF_WIDTH + M - 1 downto 0);
+  signal products :products_vector(0 to N-1);
+  -- Maximum number of stages needed for the adder tree
+  constant MAX_STAGES : integer := integer(ceil(log2(real(N))));
+  -- Signals for the adder tree, using a 2D array
+  type sum_vector is array (natural range <>) of products_vector(0 to N-1);
+  signal sum_stages : sum_vector(0 to MAX_STAGES);
 
-  signal delay_line : std_logic_vector(M-1 downto 0) := (others => '0');
-  signal acc : integer range -(2**(M-1)) to 2**(M-1)-1 := 0;
+  signal acc : signed(COEFF_WIDTH + M - 1 downto 0):=(others=>'0');
 begin
 
   process (clk, reset)
   begin
     if reset = '1' then
-      -- Reset logic here
-      delay_line <= (others => '0');
-      acc <= 0;
+      for i in coefficient'range loop
+        coefficient(i) <= to_signed(SCALED_COEFS(i), COEFF_WIDTH);
+      end loop;
+      delay_line <= (others => (others => '0'));
+      acc <= (others => '0');
     elsif rising_edge(clk) then
       -- Shift delay line
-      delay_line <= x & delay_line(N-1 downto 1);
-      
-      -- Compute new accumulator value
-      acc <= 0;
-      for i in 0 to N-1 loop
-        acc <= acc + SCALED_COEFS(i) * to_integer(signed(delay_line(i)));
+      for i in 0 to N-2 loop
+        delay_line(i+1) <= delay_line(i);
       end loop;
+      delay_line(0) <= signed(x);
       
-      -- Output the result
-      y <= std_logic_vector(to_signed(acc, M));
+      -- Compute the partial products in parallel
+      for i in 0 to N-1 loop
+        -- products(i) <= delay_line(i) * coefficient(i);
+        sum_stages(0)(i) <=  delay_line(i) * coefficient(i);
+      end loop;
     end if;
   end process;
+
+  -- Generate the adder tree
+    gen_stages: for stage in 1 to MAX_STAGES generate
+        process(clk)
+        begin
+            if rising_edge(clk) then
+              for i in 0 to (N/(2**stage))-1 loop
+                sum_stages(stage)(i) <= sum_stages(stage-1)(2*i) + sum_stages(stage-1)(2*i+1);
+              end loop;
+            end if;
+        end process;
+    end generate;
+
+    -- Assign the output from the final stage of the adder tree
+    process(clk)
+    begin
+      if rising_edge(clk) then
+        y <= std_logic_vector(sum_stages(MAX_STAGES)(0)(M+COEFF_WIDTH-1 downto COEFF_WIDTH));
+      end if;
+    end process;
 
 end architecture behavioral;
