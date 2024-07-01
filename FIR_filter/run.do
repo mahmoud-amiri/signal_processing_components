@@ -5,8 +5,8 @@ if {[file exists "work"]} {
 vlib work
 
 # Compile the design files
-vcom -2008 -work work FIR_filter.vhd
 vcom -2008 -work work FIR_PKG.vhd
+vcom -2008 -work work FIR_filter.vhd
 vlog -sv -work work FIR_filter_tb.sv
 
 # Optimize the testbench design

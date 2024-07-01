@@ -5,21 +5,21 @@ use ieee.math_real.all;
 use ieee.numeric_std.all;
 
 package FIR_PKG is
-    type real_vector is array (natural range <>) of real;
-    type integer_vector is array (natural range <>) of integer;
-    function abs_arr (arr : real_vector) return real_vector;
-    function maximum (arr : real_vector) return real;
-    function find_integer_bits(coeffs : real_vector) return integer;
+    type real_arr is array (natural range <>) of real;
+    type int_arr is array (natural range <>) of integer;
+    function abs_arr (arr : real_arr) return real_arr;
+    function maximum (arr : real_arr) return real;
+    function find_integer_bits(coeffs : real_arr) return integer;
     function find_fraction_bits(acceptable_error : real) return integer;
-    function scale_data(arr : real_vector; scale_factor : real) return integer_vector;
+    function scale_data(arr : real_arr; scale_factor : real) return int_arr;
 end package FIR_PKG;
 
 
 package body FIR_PKG is
 
     -- calculate abs in an array
-    function abs_arr (arr : real_vector) return real_vector is
-        variable abs_data : real_vector(arr'range);
+    function abs_arr (arr : real_arr) return real_arr is
+        variable abs_data : real_arr(arr'range);
     begin
         for i in arr'range loop
             if arr(i) < 0.0 then
@@ -32,7 +32,7 @@ package body FIR_PKG is
     end function abs_arr;
 
     -- find max in an array
-    function maximum (arr : real_vector) return real is
+    function maximum (arr : real_arr) return real is
         variable max_val : real := arr(0);
     begin
         for i in arr'range loop
@@ -44,7 +44,7 @@ package body FIR_PKG is
     end function maximum;
 
     -- find int part bit number 
-    function find_integer_bits(coeffs : real_vector) return integer is
+    function find_integer_bits(coeffs : real_arr) return integer is
     begin
         return integer(ceil(log2(maximum(abs_arr(coeffs)))))  + 1; -- +1 for sign bit
     end find_integer_bits;
@@ -56,8 +56,8 @@ package body FIR_PKG is
     end find_fraction_bits;
 
     -- calculate scaled array
-    function scale_data(arr : real_vector; scale_factor : real) return integer_vector is
-    variable result_vec : integer_vector(0 to arr'length-1);
+    function scale_data(arr : real_arr; scale_factor : real) return int_arr is
+    variable result_vec : int_arr(0 to arr'length-1);
     begin
         for i in arr'range loop
             result_vec(i) := integer(scale_factor*arr(i));

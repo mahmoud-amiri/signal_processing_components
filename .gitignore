@@ -1,2 +1,7 @@
 _hdl_checker
 complex_multiplier/work
+FIR_filter/work/
+FIR_filter/transcript
+_hdl_checker/default_library/
+FIR_filter/vsim.wlf
+
