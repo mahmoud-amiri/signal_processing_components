@@ -55,10 +55,10 @@ module complex_multiplier_tb;
         // Test sequence 2: Randomize inputs and predict outputs
         repeat (10) begin
             // Randomize inputs
-            real_part_a = $urandom_range(0, 8);//65535); // Random 16-bit value
-            imag_part_a = $urandom_range(0, 8);//65535); // Random 16-bit value
-            real_part_b = $urandom_range(0, 8);//262143); // Random 18-bit value
-            imag_part_b = $urandom_range(0, 8);//262143); // Random 18-bit value
+            real_part_a = $urandom_range(0, 65535); // Random 16-bit value
+            imag_part_a = $urandom_range(0, 65535); // Random 16-bit value
+            real_part_b = $urandom_range(0, 262143); // Random 18-bit value
+            imag_part_b = $urandom_range(0, 262143); // Random 18-bit value
             
             // Predicted outputs
             expected_real = real_part_a * real_part_b - imag_part_a * imag_part_b;
