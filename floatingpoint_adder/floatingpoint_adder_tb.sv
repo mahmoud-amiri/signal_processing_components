@@ -1,18 +1,15 @@
 `timescale 1ns / 1ps
 
-module complex_multiplier_tb;
+module floatingpoint_adder_tb;
 
-    parameter EXP_BITS := 8;
-    parameter MANT_BITS := 23;
-    parameter BIAS := 127;
+    parameter EXP_BITS = 8;
+    parameter MANT_BITS = 23;
+    parameter BIAS = 127;
     // Inputs
     reg clk = 0;
     reg rst = 1;
     reg [31:0] a;
     reg [31:0] b;
-    reg sign_a, sign_b;
-    reg unsigned [MANT_BITS+1 : 0] exp_a, exp_b;
-    reg unsigned [MANT_BITS+1 : 0] mant_a, mant_b;
     
     // Outputs
     wire [31:0] result;
@@ -50,7 +47,8 @@ module complex_multiplier_tb;
         bit [22:0] fraction;
         bit [7:0] exponent;
         bit sign;
-        
+        int exponent_unbiased;
+        int temp;
         // Handle special cases
         if (r == 0.0) begin
             return 32'b0;
@@ -62,11 +60,13 @@ module complex_multiplier_tb;
             return 32'b1_11111111_00000000000000000000000; // -Infinity
         end
 
-        sign = (r < 0);
-        if (sign) r = -r;
-        
+        if (r < 0) begin
+            r = -r;
+            sign = 1;
+        end
         // Extract exponent
-        int exponent_unbiased = $clog2(r);
+        temp = r*(2**MANT_BITS);
+        exponent_unbiased = $clog2(temp)-MANT_BITS;
         exponent = 127 + exponent_unbiased;
 
         // Normalize the real number
@@ -89,10 +89,10 @@ module complex_multiplier_tb;
     // Function to generate a random real number in a given range
     function real random_real(input real min, input real max);
         real range;
-        real rand;
+        real rand_num;
         range = max - min;
-        rand = $urandom_range(0, 1000000) / 1000000.0; // Normalize to [0.0, 1.0]
-        return min + rand * range;
+        rand_num = $urandom_range(0, 1000000) / 1000000.0; // Normalize to [0.0, 1.0]
+        return min + rand_num * range;
     endfunction
 
 

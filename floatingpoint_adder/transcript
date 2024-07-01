@@ -1,0 +1,1583 @@
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 20:56:14 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Error: floatingpoint_adder.vhd(41): Type error resolving infix expression "&" as type ieee.NUMERIC_STD.UNSIGNED.
+# ** Error: floatingpoint_adder.vhd(42): Type error resolving infix expression "&" as type ieee.NUMERIC_STD.UNSIGNED.
+# ** Note: floatingpoint_adder.vhd(85): VHDL Compiler exiting
+# End time: 20:56:14 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vcom failed.
+# Error in macro ./run.do line 8
+# C:/questasim64_2021.1/win64/vcom failed.
+#     while executing
+# "vcom -2008 -work work floatingpoint_adder.vhd"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 20:58:48 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Error: floatingpoint_adder.vhd(41): Type error resolving infix expression "&" as type ieee.NUMERIC_STD.UNSIGNED.
+# ** Error: floatingpoint_adder.vhd(42): Type error resolving infix expression "&" as type ieee.NUMERIC_STD.UNSIGNED.
+# ** Note: floatingpoint_adder.vhd(85): VHDL Compiler exiting
+# End time: 20:58:48 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vcom failed.
+# Error in macro ./run.do line 8
+# C:/questasim64_2021.1/win64/vcom failed.
+#     while executing
+# "vcom -2008 -work work floatingpoint_adder.vhd"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:00:10 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:00:10 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:00:10 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# ** Error: (vlog-7) Failed to open design unit file "floatingpoint_adder_tb.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 21:00:10 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:00:56 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:00:56 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:00:56 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(5): near ":=": syntax error, unexpected :=, expecting ';' or ','.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(6): near ":=": syntax error, unexpected :=, expecting ';' or ','.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(7): near ":=": syntax error, unexpected :=, expecting ';' or ','.
+# ** Error (suppressible): floatingpoint_adder_tb.sv(69): (vlog-2244) Variable 'exponent_unbiased' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: floatingpoint_adder_tb.sv(70): Illegal declaration after the statement near line '66'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(92): near "rand": syntax error, unexpected rand, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(94): near "rand": syntax error, unexpected rand.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(95): near "rand": syntax error, unexpected rand.
+# End time: 21:00:56 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:01:35 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:01:36 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:01:36 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error (suppressible): floatingpoint_adder_tb.sv(69): (vlog-2244) Variable 'exponent_unbiased' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: floatingpoint_adder_tb.sv(70): Illegal declaration after the statement near line '66'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(92): near "rand": syntax error, unexpected rand, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER or '='.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(94): near "rand": syntax error, unexpected rand.
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(95): near "rand": syntax error, unexpected rand.
+# End time: 21:01:36 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:02:28 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:02:28 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:02:28 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error (suppressible): floatingpoint_adder_tb.sv(69): (vlog-2244) Variable 'exponent_unbiased' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: floatingpoint_adder_tb.sv(70): Illegal declaration after the statement near line '66'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 21:02:28 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:03:13 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:03:13 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:03:13 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error (suppressible): floatingpoint_adder_tb.sv(70): (vlog-2244) Variable 'exponent_unbiased' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: floatingpoint_adder_tb.sv(71): Illegal declaration after the statement near line '66'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 21:03:13 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:04:13 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:04:13 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:04:13 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error (suppressible): floatingpoint_adder_tb.sv(70): (vlog-2244) Variable 'exponent_unbiased' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: floatingpoint_adder_tb.sv(71): Illegal declaration after the statement near line '65'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 21:04:13 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:07:00 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:07:00 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:07:00 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error (suppressible): floatingpoint_adder_tb.sv(70): (vlog-2244) Variable 'exponent_unbiased' is implicitly static. You must either explicitly declare it as static or automatic
+# or remove the initialization in the declaration of variable.
+# ** Error: floatingpoint_adder_tb.sv(71): Illegal declaration after the statement near line '65'.  Declarations must precede statements.  Look for stray semicolons.
+# End time: 21:07:00 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:08:08 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:08:08 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:08:08 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error: floatingpoint_adder_tb.sv(70): $clog2 : Function takes only one argument of type integer or vector.
+# 
+# End time: 21:08:08 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:10:12 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:10:12 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:10:12 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(70): near "(": syntax error, unexpected '(', expecting '\''.
+# End time: 21:10:12 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:10:26 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:10:26 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:10:26 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:10:26 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:10:26 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# ** Error (suppressible): floatingpoint_adder_tb.sv(70): (vopt-7063) Failed to find 'ceil' in hierarchical name 'ceil'.
+#         Region: floatingpoint_adder_tb
+# ** Error (suppressible): floatingpoint_adder_tb.sv(70): (vopt-7063) Failed to find 'ceil' in hierarchical name 'ceil.$$'.
+#         Region: floatingpoint_adder_tb
+# Optimization failed
+# End time: 21:10:26 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vopt failed.
+# Error in macro ./run.do line 12
+# Return status = 2
+#     (procedure "compile" line 1)
+#     invoked from within
+# "compile NoFilter vopt work.floatingpoint_adder_tb -o tb_optimized +acc"
+#     ("eval" body line 1)
+#     invoked from within
+# "eval compile NoFilter vopt $args"
+#     (procedure "vopt" line 9)
+#     invoked from within
+# "vopt work.floatingpoint_adder_tb -o tb_optimized +acc"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:11:19 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:11:19 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:11:19 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(71): near "(": syntax error, unexpected '(', expecting '\''.
+# End time: 21:11:19 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:11:53 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:11:53 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:11:53 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# ** Error: (vlog-13069) floatingpoint_adder_tb.sv(72): near "exponent_unbiased": syntax error, unexpected IDENTIFIER, expecting ';'.
+# End time: 21:11:53 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_2021.1/win64/vlog failed.
+# Error in macro ./run.do line 9
+# C:/questasim64_2021.1/win64/vlog failed.
+#     while executing
+# "vlog -sv -work work floatingpoint_adder_tb.sv"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:12:49 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:12:49 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:12:49 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:12:49 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:12:49 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:12:50 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:12:50 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 131
+# ** Note: $finish    : floatingpoint_adder_tb.sv(142)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 142
+do run.do
+# Error 31: Unable to unlink file "D:/GitHub/signal_processing_components/floatingpoint_adder/work/tb_optimized/_lib.qdb".
+# Error 133: Unable to remove directory "D:/GitHub/signal_processing_components/floatingpoint_adder/work/tb_optimized".
+# Error 133: Unable to remove directory "D:/GitHub/signal_processing_components/floatingpoint_adder/work".
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:13:55 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:13:55 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:13:55 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:13:55 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:13:55 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# ** Warning: (vopt-31) Unable to unlink file "D:/GitHub/signal_processing_components/floatingpoint_adder/work/tb_optimized/_lib.qdb".
+# ** Warning: (vopt-133) Unable to remove directory "D:/GitHub/signal_processing_components/floatingpoint_adder/work/tb_optimized".
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# init_auxdbinfo(): INTERNAL ERROR: Cannot open page file "D:/GitHub/signal_processing_components/floatingpoint_adder/work/tb_optimized/_lib1_0.qpg" in read mode
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:13:56 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# End time: 21:13:59 on Jul 01,2024, Elapsed time: 0:01:09
+# Errors: 10, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:13:59 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ** Note: $finish    : floatingpoint_adder_tb.sv(139)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 139
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:23:16 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(41): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(42): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:23:16 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:23:16 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:23:16 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:23:17 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:23:17 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:23:22 on Jul 01,2024, Elapsed time: 0:09:23
+# Errors: 10, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:23:22 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ** Note: $finish    : floatingpoint_adder_tb.sv(139)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 139
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:24:45 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(45): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(46): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:24:45 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:24:45 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:24:45 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:24:45 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:24:45 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:24:48 on Jul 01,2024, Elapsed time: 0:01:26
+# Errors: 10, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:24:48 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ** Note: $finish    : floatingpoint_adder_tb.sv(139)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 139
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:25:27 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(46): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(47): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:25:27 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:25:28 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:25:28 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:25:28 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:25:28 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:25:30 on Jul 01,2024, Elapsed time: 0:00:42
+# Errors: 10, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:25:30 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ** Note: $finish    : floatingpoint_adder_tb.sv(139)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 139
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:26:19 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(47): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(48): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:26:19 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:26:19 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:26:19 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:26:19 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:26:20 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:26:22 on Jul 01,2024, Elapsed time: 0:00:52
+# Errors: 10, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:26:22 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ** Note: $finish    : floatingpoint_adder_tb.sv(139)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 139
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:28:05 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Error: floatingpoint_adder.vhd(42): Aggregate expression cannot be scalar type std.STANDARD.INTEGER.
+# ** Error: floatingpoint_adder.vhd(43): Aggregate expression cannot be scalar type std.STANDARD.INTEGER.
+# ** Warning: floatingpoint_adder.vhd(50): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(51): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Note: floatingpoint_adder.vhd(94): VHDL Compiler exiting
+# End time: 21:28:05 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 2
+# ** Error: C:/questasim64_2021.1/win64/vcom failed.
+# Error in macro ./run.do line 8
+# C:/questasim64_2021.1/win64/vcom failed.
+#     while executing
+# "vcom -2008 -work work floatingpoint_adder.vhd"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:28:21 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Error: floatingpoint_adder.vhd(43): Aggregate expression cannot be scalar type std.STANDARD.INTEGER.
+# ** Warning: floatingpoint_adder.vhd(50): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(51): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Note: floatingpoint_adder.vhd(94): VHDL Compiler exiting
+# End time: 21:28:21 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# ** Error: C:/questasim64_2021.1/win64/vcom failed.
+# Error in macro ./run.do line 8
+# C:/questasim64_2021.1/win64/vcom failed.
+#     while executing
+# "vcom -2008 -work work floatingpoint_adder.vhd"
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:28:35 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(50): (vcom-1272) Length of expected is 25; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(51): (vcom-1272) Length of expected is 25; length of actual is 24.
+# End time: 21:28:35 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:28:35 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:28:35 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:28:35 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:28:35 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:28:38 on Jul 01,2024, Elapsed time: 0:02:16
+# Errors: 12, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:28:38 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 55 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 105 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 155 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 205 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 255 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 305 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 355 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 405 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 455 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ===============================
+# Inputs:
+# a = 00000000
+# b = 00000000
+# ===============================
+# ** Error: Output mismatch! Expected output=0, but got X
+#    Time: 505 ns  Scope: floatingpoint_adder_tb File: floatingpoint_adder_tb.sv Line: 128
+# ** Note: $finish    : floatingpoint_adder_tb.sv(139)
+#    Time: 515 ns  Iteration: 0  Instance: /floatingpoint_adder_tb
+# 1
+# Break in Module floatingpoint_adder_tb at floatingpoint_adder_tb.sv line 139
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:35:53 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(66): (vcom-1272) Length of expected is 26; length of actual is 25.
+# ** Warning: floatingpoint_adder.vhd(70): (vcom-1272) Length of expected is 26; length of actual is 25.
+# ** Warning: floatingpoint_adder.vhd(73): (vcom-1272) Length of expected is 26; length of actual is 25.
+# ** Warning: floatingpoint_adder.vhd(80): (vcom-1272) Length of expected is 24; length of slice name is 25.
+# ** Warning: floatingpoint_adder.vhd(83): (vcom-1272) Length of expected is 24; length of slice name is 25.
+# End time: 21:35:53 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:35:53 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:35:53 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:35:53 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:35:54 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:35:56 on Jul 01,2024, Elapsed time: 0:07:18
+# Errors: 34, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:35:56 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 24 (23 downto 0). Right is 25 (24 downto 0).
+#    Time: 15 ns  Iteration: 1  Process: /floatingpoint_adder_tb/dut/line__31 File: floatingpoint_adder.vhd
+# Fatal error in Process line__31 at floatingpoint_adder.vhd line 83
+# 
+# HDL call sequence:
+# Stopped at floatingpoint_adder.vhd 83 Process line__31
+# 
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:45:48 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(50): (vcom-1272) Length of expected is 23; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(51): (vcom-1272) Length of expected is 23; length of actual is 24.
+# ** Warning: floatingpoint_adder.vhd(79): (vcom-1152) Index value 25 is out of index range 23 downto 0 of ieee.NUMERIC_STD.UNSIGNED.
+# ** Warning: floatingpoint_adder.vhd(80): (vcom-1167) Index value 25 (of type ieee.NUMERIC_STD.UNSIGNED) is out of range 23 downto 0.
+# ** Warning: floatingpoint_adder.vhd(80): (vcom-1272) Length of expected is 23; length of slice name is 25.
+# ** Warning: floatingpoint_adder.vhd(83): (vcom-1167) Index value 24 (of type ieee.NUMERIC_STD.UNSIGNED) is out of range 23 downto 0.
+# ** Warning: floatingpoint_adder.vhd(83): (vcom-1272) Length of expected is 23; length of slice name is 25.
+# ** Warning: floatingpoint_adder.vhd(89): (vcom-1167) Index value 23 (of type ieee.NUMERIC_STD.UNSIGNED) is out of range 22 downto 0.
+# End time: 21:45:48 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 8
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:45:48 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:45:48 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:45:48 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(79): (vopt-1152) Index value 25 is out of index range 23 downto 0 of ieee.NUMERIC_STD.UNSIGNED.
+# ** Warning: floatingpoint_adder.vhd(80): (vopt-1167) Index value 25 (of type ieee.NUMERIC_STD.UNSIGNED) is out of range 23 downto 0.
+# ** Warning: floatingpoint_adder.vhd(80): (vopt-1272) Length of expected is 23; length of slice name is 25.
+# ** Warning: floatingpoint_adder.vhd(83): (vopt-1167) Index value 24 (of type ieee.NUMERIC_STD.UNSIGNED) is out of range 23 downto 0.
+# ** Warning: floatingpoint_adder.vhd(83): (vopt-1272) Length of expected is 23; length of slice name is 25.
+# ** Warning: floatingpoint_adder.vhd(89): (vopt-1167) Index value 23 (of type ieee.NUMERIC_STD.UNSIGNED) is out of range 22 downto 0.
+# Optimized design name is tb_optimized
+# End time: 21:45:49 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 6
+# End time: 21:45:51 on Jul 01,2024, Elapsed time: 0:09:55
+# Errors: 1, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:45:51 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ** Fatal: (vsim-3738) (vopt-1152) Index value 25 is out of index range 23 downto 0 of ieee.NUMERIC_STD.UNSIGNED.
+#    Time: 15 ns  Iteration: 1  Process: /floatingpoint_adder_tb/dut/line__31 File: floatingpoint_adder.vhd Line: 79
+# Fatal error in Process line__31 at floatingpoint_adder.vhd line 79
+# 
+# HDL call sequence:
+# Stopped at floatingpoint_adder.vhd 79 Process line__31
+# 
+do run.do
+# QuestaSim-64 vcom 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:50:10 on Jul 01,2024
+# vcom -reportprogress 300 -2008 -work work floatingpoint_adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity FloatingPointAdder
+# -- Compiling architecture Behavioral of FloatingPointAdder
+# ** Warning: floatingpoint_adder.vhd(66): (vcom-1272) Length of expected is 26; length of actual is 25.
+# ** Warning: floatingpoint_adder.vhd(70): (vcom-1272) Length of expected is 26; length of actual is 25.
+# ** Warning: floatingpoint_adder.vhd(73): (vcom-1272) Length of expected is 26; length of actual is 25.
+# ** Warning: floatingpoint_adder.vhd(80): (vcom-1272) Length of expected is 24; length of slice name is 25.
+# ** Warning: floatingpoint_adder.vhd(83): (vcom-1272) Length of expected is 24; length of slice name is 25.
+# End time: 21:50:10 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 5
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:50:10 on Jul 01,2024
+# vlog -reportprogress 300 -sv -work work floatingpoint_adder_tb.sv 
+# -- Compiling module floatingpoint_adder_tb
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# End time: 21:50:10 on Jul 01,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vopt 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 21:50:10 on Jul 01,2024
+# vopt -reportprogress 300 work.floatingpoint_adder_tb -o tb_optimized "+acc" 
+# 
+# Top level modules:
+# 	floatingpoint_adder_tb
+# 
+# Analyzing design...
+# -- Loading module floatingpoint_adder_tb
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading entity FloatingPointAdder
+# -- Loading architecture Behavioral of FloatingPointAdder
+# Optimizing 2 design-units (inlining 0/1 module instances, 0/1 architecture instances):
+# -- Optimizing module floatingpoint_adder_tb(fast)
+# -- Optimizing architecture Behavioral of FloatingPointAdder
+# Optimized design name is tb_optimized
+# End time: 21:50:11 on Jul 01,2024, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 21:50:13 on Jul 01,2024, Elapsed time: 0:04:22
+# Errors: 1, Warnings: 0
+# vsim -lib work tb_optimized 
+# Start time: 21:50:13 on Jul 01,2024
+# Loading sv_std.std
+# Loading work.floatingpoint_adder_tb(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.floatingpointadder(behavioral)#1
+# 1
+# ** Fatal: (vsim-3420) Array lengths do not match. Left is 24 (23 downto 0). Right is 25 (24 downto 0).
+#    Time: 15 ns  Iteration: 1  Process: /floatingpoint_adder_tb/dut/line__31 File: floatingpoint_adder.vhd
+# Fatal error in Process line__31 at floatingpoint_adder.vhd line 83
+# 
+# HDL call sequence:
+# Stopped at floatingpoint_adder.vhd 83 Process line__31
+# 

@@ -22,7 +22,7 @@ architecture Behavioral of FloatingPointAdder is
     -- Internal signals
     signal sign_a, sign_b, sign_result : STD_LOGIC;
     signal exp_a, exp_b, exp_result : integer range 0 to 255;
-    signal mant_a, mant_b, mant_result : unsigned(MANT_BITS+1 downto 0); -- Include hidden bit
+    signal mant_a, mant_b, mant_result : unsigned(MANT_BITS downto 0); -- Include hidden bit
     signal sum_mant : unsigned(MANT_BITS+2 downto 0); -- For carrying addition overflow
     signal shift_amount : integer range 0 to MANT_BITS+1;
 
@@ -32,14 +32,23 @@ begin
     begin
         if rst = '1' then
             result <= (others => '0');
+            mant_a <= (others => '0');
+            mant_b <= (others => '0');
+            exp_a <= 0;
+            exp_b <= 0;
+            result <= (others => '0');
+            mant_result <= (others => '0');
+            sum_mant <= (others => '0');
+            shift_amount <= 0;
+            exp_result <= 0;
         elsif rising_edge(clk) then
             -- Extract sign, exponent, and mantissa
             sign_a <= a(31);
             sign_b <= b(31);
-            exp_a <= to_integer(unsigned(a(30 downto 23)));
-            exp_b <= to_integer(unsigned(b(30 downto 23)));
-            mant_a <= "1" & a(22 downto 0);
-            mant_b <= "1" & b(22 downto 0);
+            exp_a <= to_integer(unsigned(a(30 downto MANT_BITS)));
+            exp_b <= to_integer(unsigned(b(30 downto MANT_BITS)));
+            mant_a <= unsigned('1' & a(MANT_BITS-1 downto 0));
+            mant_b <= unsigned('1' & b(MANT_BITS-1 downto 0));
 
             -- Align exponents
             if exp_a > exp_b then

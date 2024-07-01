@@ -1,0 +1,89 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f MIXED_VERSIONS
+!s11e vcom 2021.1 2021.01, Jan 19 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/GitHub/signal_processing_components/floatingpoint_adder
+vfloatingpoint_adder_tb
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z1 !s110 1719863410
+!i10b 1
+!s100 m6:[KO]j2MJchAIhjDfjD2
+I:k`l8i5jhInP`_:06G0_G1
+S1
+R0
+w1719861293
+8floatingpoint_adder_tb.sv
+Ffloatingpoint_adder_tb.sv
+!i122 1
+L0 3 140
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2021.1;73
+r1
+!s85 0
+31
+Z2 !s108 1719863410.000000
+!s107 floatingpoint_adder_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|floatingpoint_adder_tb.sv|
+!i113 0
+o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z3 tCvgOpt 0
+Efloatingpointadder
+Z4 w1719863407
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 0
+R0
+Z8 8floatingpoint_adder.vhd
+Z9 Ffloatingpoint_adder.vhd
+l0
+L5 1
+Vb>;HO>9OY^9gSPh3^kV7?2
+!s100 @8P1R6801^zY@FFWe[HaJ0
+Z10 OL;C;2021.1;73
+33
+R1
+!i10b 1
+R2
+Z11 !s90 -reportprogress|300|-2008|-work|work|floatingpoint_adder.vhd|
+Z12 !s107 floatingpoint_adder.vhd|
+!i113 0
+Z13 o-2008 -work work
+Z14 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+R7
+DEx4 work 18 floatingpointadder 0 22 b>;HO>9OY^9gSPh3^kV7?2
+!i122 0
+l29
+L15 80
+VAakOjUoMZYEhWJ;ozBcdZ1
+!s100 _QV_hFIG@eSQHG=MiNT1Y0
+R10
+33
+R1
+!i10b 1
+R2
+R11
+R12
+!i113 0
+R13
+R14
+Ttb_optimized
+!s110 1719863411
+VVQa:[TSD>fW27UMFXdDnG0
+04 22 4 work floatingpoint_adder_tb fast 0
+!s124 OEM100
+o+acc
+R3
+ntb_optimized
+OL;O;2021.1;73
