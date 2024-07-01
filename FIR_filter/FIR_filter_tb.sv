@@ -4,12 +4,12 @@ module FIR_filter_tb;
 
   parameter TAP_NUM = 51;
   parameter DATA_WIDTH = 16;
-  parameter INPUT_DATA_NUM = 5001;
+  parameter INPUT_DATA_NUM = 5000;
   parameter DELAY = 9;
   reg clk;
   reg reset;
-  reg [DATA_WIDTH-1:0] x;
-  wire [DATA_WIDTH-1:0] y;
+  reg signed [DATA_WIDTH-1:0] x;
+  wire signed [DATA_WIDTH-1:0] y;
   int input_data [0:INPUT_DATA_NUM-1];
   int output_data [0:INPUT_DATA_NUM + DELAY-1];
   int expected_output [0:INPUT_DATA_NUM-1];
@@ -113,10 +113,10 @@ module FIR_filter_tb;
     for (i = 0; i < INPUT_DATA_NUM; i = i + 1) begin
       if (abs(output_data[i] - expected_output[i]) > 5) begin
         unmatch_cnt = unmatch_cnt + 1;
-        $display("Mismatch at index %0d: expected %d, got %d", i, expected_output[i], output_data[i]);
+        $display("Mismatch at index %0d: expected %b, got %b", i, expected_output[i], output_data[i]);
       end else begin
         match_cnt = match_cnt + 1;
-        $display("Match at index %0d: expected %d, got %d", i, expected_output[i], output_data[i]);
+        // $display("Mat?ch at index %0d: expected %b, got %b", i, expected_output[i], output_data[i]);
       end
     end
 
