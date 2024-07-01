@@ -66,27 +66,22 @@ begin
         -- products(i) <= delay_line(i) * coefficient(i);
         sum_stages(0)(i) <=  delay_line(i) * coefficient(i);
       end loop;
+
+      -- Generate the adder tree
+      for stage in 1 to MAX_STAGES loop
+        for i in 0 to ((N-1)/(2**stage)) loop
+          --check if there are enough elements to form a pair. If not, it carries forward the single remaining element
+          if (2*i+1) < N then 
+            sum_stages(stage)(i) <= sum_stages(stage-1)(2*i) + sum_stages(stage-1)(2*i+1);
+          else
+            sum_stages(stage)(i) <= sum_stages(stage-1)(2*i);
+          end if;
+        end loop;
+      end loop;
+      
+    -- Assign the output
+    y <= std_logic_vector(sum_stages(MAX_STAGES)(0)(M+COEFF_WIDTH-1 downto COEFF_WIDTH));
     end if;
   end process;
-
-  -- Generate the adder tree
-    gen_stages: for stage in 1 to MAX_STAGES generate
-        process(clk)
-        begin
-            if rising_edge(clk) then
-              for i in 0 to (N/(2**stage))-1 loop
-                sum_stages(stage)(i) <= sum_stages(stage-1)(2*i) + sum_stages(stage-1)(2*i+1);
-              end loop;
-            end if;
-        end process;
-    end generate;
-
-    -- Assign the output from the final stage of the adder tree
-    process(clk)
-    begin
-      if rising_edge(clk) then
-        y <= std_logic_vector(sum_stages(MAX_STAGES)(0)(M+COEFF_WIDTH-1 downto COEFF_WIDTH));
-      end if;
-    end process;
 
 end architecture behavioral;
