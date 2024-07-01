@@ -2,6 +2,29 @@
 
 module tb_fir_filter;
 
+  function void read_data_from_file(string file_name, logic signed [M-1:0] data_array[]);
+    int file;
+    int code;
+    int index;
+    logic signed [31:0] temp;
+    file = $fopen(file_name, "r");
+    if (file == 0) begin
+      $display("Error opening file: %s", file_name);
+      $finish;
+    end
+    
+    index = 0;
+    while (!$feof(file)) begin
+      code = $fscanf(file, "%d\n", temp);
+      if (code == 1) begin
+        data_array[index] = temp;
+        index = index + 1;
+      end
+    end
+    $fclose(file);
+  endfunction
+
+
   // Parameters
   localparam N = 8;    // Number of taps (filter length)
   localparam M = 8;    // Bit-width of filter coefficients and data
